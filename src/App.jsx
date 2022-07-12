@@ -1,5 +1,6 @@
 import './App.css'
 import SobreMi from './componentes/sobreMi'
+import Proyectos from './componentes/subComponentes/Proyectos'
 import Target from './componentes/targPresenta'
 function App() {
  
@@ -18,6 +19,9 @@ function App() {
         <li><img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" className='liImg' title='REACT'></img></li>
           
          </ul>
+
+         <h3>Proyectos</h3>
+         <Proyectos/>
 
 
 

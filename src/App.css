@@ -30,6 +30,7 @@ body{
 .sobreM{
   display:inline-block;
   width: 60%;
+  
 }
 
 ul{
@@ -38,4 +39,27 @@ ul{
 }
 .liImg{
   width:50%;
+}
+
+.contenProyects{
+display: flex;
+flex-wrap: wrap;
+
+justify-content: space-around;
+
+}
+
+.targetProyect{
+  background-color: rgb(133, 199, 187);
+  max-width: 300px ;
+  text-align: center;
+  padding: 1%;
+  border-radius: 15px;
+}
+.targetProyect:hover{
+  background-color:rgb(83, 188, 169) ;
+}
+
+.imgProyect{
+  width: 80%;
 }
