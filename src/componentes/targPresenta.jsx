@@ -9,7 +9,7 @@ const Target=()=>{
           <Img enlace={link} alt="Programador"/>
           <div className="presentacion">
               <h1>Hola Mundo</h1>
-             <p>Soy Francisco Beltran</p>
+             <p className="name">Soy Francisco Beltran</p>
              <h2>Programador</h2>
           </div>
              

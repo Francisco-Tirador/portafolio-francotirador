@@ -15,14 +15,18 @@ code {
 
 @media (max-width:600px)
 {body {
-    background-color:rgb(182, 32, 32);
+   
     font-weight:100;
+}
+
+.name{
+  font-size:x-large;
 }
 .targetPrincipal{
   display:inline-flex;
   flex-wrap: wrap;
   padding:1%;
-  height: 100%;
+  height: 100vh;
 }
 }
 
@@ -30,6 +34,7 @@ code {
   
   .presentacion{
     width: 100%;
+    font-size:medium;
    
   }
   .sobreM{

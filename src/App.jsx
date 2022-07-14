@@ -2,6 +2,7 @@ import './App.css'
 import SobreMi from './componentes/sobreMi'
 import Proyectos from './componentes/subComponentes/Proyectos'
 import Target from './componentes/targPresenta'
+import Contacto from './componentes/Contacto'
 function App() {
  
   return (
@@ -10,9 +11,9 @@ function App() {
      <div>
        <SobreMi/>
 
-       <h3>Habilidades</h3>
+       <h3 className='Subtitule'>Habilidades</h3>
        
-         <ul>
+         <ul >
         <li><img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" className='liImg' title='HTML'></img></li>
         <li><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" className='liImg' title='CSS'></img></li>
         <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" className='liImg' title='JAVA SCRIP'></img></li>
@@ -20,10 +21,11 @@ function App() {
           
          </ul>
 
-         <h3>Proyectos</h3>
+         <h3 className='Subtitule'>Proyectos</h3>
          <Proyectos/>
 
-
+          <h3 className='Subtitule'>Contacto</h3>
+          <Contacto/>
 
      </div>
     
