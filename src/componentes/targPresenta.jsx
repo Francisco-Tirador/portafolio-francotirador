@@ -1,12 +1,17 @@
 import React from "react";
-import Img from "./subComponentes/img";
+
+
 const Target=()=>{
 
-    const link="https://img.freepik.com/vector-gratis/programacion-desarrollador-software-escritorio-simbolos-codigo_24877-70808.jpg"
+    
+    // const link="https://img.freepik.com/vector-gratis/programacion-desarrollador-software-escritorio-simbolos-codigo_24877-70808.jpg"
+   
+    
     return(
         <div className="targetPrincipal">
             
-          <Img enlace={link} alt="Programador"/>
+          {/* <Img enlace={link} alt="Programador"/> */}
+          <img className="img" src="https://img.freepik.com/vector-premium/chico-joven-que-trabaja-computadora-mesa-elevadora-silla-pie-aislado-fondo-verde-ilustracion-plana_323758-138.jpg?w=740" alt="" />
           <div className="presentacion">
               <h1>Hola Mundo</h1>
              <p className="name">Soy Francisco Beltran</p>
