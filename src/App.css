@@ -8,6 +8,37 @@ body{
  
 }
 
+.entrada {
+  overflow: hidden;
+  font-family: Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 3.4em;
+  color: #f13b3b;
+  
+  border-right: 2px solid rgba(0, 0, 0, 0.87);
+  animation: animacionIntro 4.8s infinite alternate steps(22),
+    animacionBar 1s step-end infinite;
+}
+
+@keyframes animacionIntro {
+  0% {
+    width: 0;
+  }
+  100% {
+    width:100%;
+  }
+}
+
+@keyframes animacionBar {
+  0%,
+  100% {
+    border-color: rgba(19, 238, 52, 0);
+  }
+  50% {
+    border-color: rgba(241, 59, 59, 0.87);
+  }
+}
+
 
 
 .targetPrincipal{
@@ -92,4 +123,15 @@ justify-content: space-around;
 .imgProyect{
   width: 80%;
   cursor:pointer;
+}
+
+/* contacto ////////////////////////// */
+.targetContacto{
+  position: relative;
+}
+.contenContacto{
+  background-color: white;
+  width:30% ;
+  min-height:200px ;
+  color:black
 }

@@ -5,12 +5,12 @@ const Contacto = () => {
     <div>Contacto
      <div>
         <p>Telefono</p>
-        <img className='targetProyect' src="https://cdn-icons.flaticon.com/png/512/2511/premium/2511865.png?token=exp=1657854369~hmac=717d14ff7854df4cc70b9a8b4a28991f" alt="Telefono" title='Telefono'/>
-        <p>+52-56-12-58-76-65</p>
+        <img className='targetProyect' src="https://cdn-icons-png.flaticon.com/512/3014/3014736.png" title="teléfono iconos"/>
+        <p className='contenContacto'>+52-56-12-58-76-65</p>
      </div>
        <p>Correo</p>
-       <img className='targetProyect' src="https://cdn-icons.flaticon.com/png/512/3543/premium/3543419.png?token=exp=1657853647~hmac=795e3c4ff781f74e09b2c10db9ac3031" alt="Correo" title='Correo'/>
-
+       <img className='targetProyect' src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Correo" title='Correo'/>
+        <p className='contenContacto'>roshlandia@gmail.com</p>
      <div>
 
      </div>
