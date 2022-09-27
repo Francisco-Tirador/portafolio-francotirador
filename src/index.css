@@ -20,7 +20,7 @@ code {
 }
 
 .name{
-  font-size:x-large;
+  font-size:40px;
 }
 .img{
   width: 100%;
@@ -32,6 +32,14 @@ code {
   padding:1%;
   height: 80vh;
 }
+
+.contenProyects{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
 }
 
 @media (max-width:600px) {

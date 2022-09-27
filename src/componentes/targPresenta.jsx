@@ -2,10 +2,6 @@ import React from "react";
 
 
 const Target=()=>{
-
-    
-    // const link="https://img.freepik.com/vector-gratis/programacion-desarrollador-software-escritorio-simbolos-codigo_24877-70808.jpg"
-   
     
     return(
         <div className="targetPrincipal">

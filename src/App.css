@@ -10,15 +10,13 @@ body{
 
 .entrada {
   overflow: hidden;
-  font-family: Helvetica, sans-serif;
+  
   white-space: nowrap;
   font-size: 3.4em;
   color: #f13b3b;
   
   border-right: 2px solid rgba(0, 0, 0, 0.87);
-  animation: animacionIntro 4.8s infinite alternate steps(22),
-    animacionBar 1s step-end infinite;
-}
+  animation: animacionIntro 4.8s infinite alternate steps(24)}
 
 @keyframes animacionIntro {
   0% {
@@ -29,7 +27,7 @@ body{
   }
 }
 
-@keyframes animacionBar {
+/* @keyframes animacionBar {
   0%,
   100% {
     border-color: rgba(19, 238, 52, 0);
@@ -37,7 +35,7 @@ body{
   50% {
     border-color: rgba(241, 59, 59, 0.87);
   }
-}
+} */
 
 
 
@@ -95,13 +93,13 @@ ul{
   width:50%;
 }
 
-.contenProyects{
-display: flex;
-flex-wrap: wrap;
+/* .contenProyects{
+ 
+/* display: flex;
+flex-wrap: wrap; 
+ justify-content: space-around; 
 
-justify-content: space-around;
-
-}
+} */
 
 .targetProyect{
   background-color: rgb(133, 199, 187);
@@ -109,6 +107,8 @@ justify-content: space-around;
   text-align: center;
   padding: 1%;
   border-radius: 15px;
+  margin: 5%;
+  
   
 }
 .targetProyect:hover{
@@ -123,15 +123,44 @@ justify-content: space-around;
 .imgProyect{
   width: 80%;
   cursor:pointer;
+
 }
 
 /* contacto ////////////////////////// */
-.targetContacto{
+/* .targetContacto{
+
+
+ 
+
+} */
+.conten{
   position: relative;
+ 
+  display: inline-block;
 }
 .contenContacto{
-  background-color: white;
-  width:30% ;
-  min-height:200px ;
-  color:black
+  overflow: hidden;
+  background-color: rgb(164, 44, 44);
+  width:350px ;
+  min-height:320px ;
+  color:black;
+  position: absolute;
+  top: 10%;
+  left: 100%;
+  white-space: nowrap; 
+  justify-content: center;
+  animation: contenidoContacto  4.8s alternate;
+}
+
+
+
+
+@keyframes contenidoContacto {
+0%{
+  width: 0;
+}
+100%{
+  width: 350px;
+}
+
 }
