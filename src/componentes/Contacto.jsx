@@ -12,21 +12,17 @@ const NumberAcc=()=>{if(Cambio2===true){setCambio2(false)}else{setCambio2(true)}
 
 
   return (
-    <div>Contacto
-     
-        <p>Telefono</p>
-        <div onClick={NumberAcc} className='conten'>
-        <img className='targetProyect' src="https://cdn-icons-png.flaticon.com/512/3014/3014736.png" title="teléfono iconos"/>
-        <p className={Cambio2? "contenContacto":""}>{Cambio2?"+52-56-12-58-76-65":""}</p>
-     </div>
-      
-     
- <p>Correo</p>
- <div  onClick={accion} className={`conten `} >
-       <img className='targetProyect' src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Correo" title='Correo'/>
-        <p className={Cambio? "contenContacto":""}>{Cambio?"roshlandia @gmail .com":""}</p>
-     </div>
+    <div className='con'>
+     <a href="https://www.linkedin.com/in/francisco-beltr%C3%A1n-342a31213/" target={'_blank'}>
+      <img className='liImg' src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="Linkedin" />
+     </a>
 
+     <a  href="https://github.com/Francisco-Tirador" target={'_blank'}>
+      <img className='liImg' src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" />
+     </a>
+     <a href="https://mail.google.com/mail/u/0/#inbox" target={'_blank'}>
+      <img className='liImg' src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Gmail" />
+     </a>
     </div>
   )
 }

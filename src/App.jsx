@@ -3,27 +3,38 @@ import SobreMi from './componentes/sobreMi'
 import Proyectos from './componentes/subComponentes/Proyectos'
 import Target from './componentes/targPresenta'
 import Contacto from './componentes/Contacto'
+import Habilidades from './componentes/Habilidades'
 function App() {
  
   return (
     <div className="App">
+      <div className='Nav'>
+
+      <div className='menu'>
+  <img  src="https://cdn-icons-png.flaticon.com/512/2099/2099043.png"/>
+      </div>
+        <ul>
+          <li><b>PRINCIPAL</b></li>
+          <li><b>SOBRE MI</b></li>
+          <li><b>HABILIDADES</b></li>
+          <li><b>PROYECTOS</b></li>
+          <li><b>CONTACTO</b></li>
+        </ul>
+      </div>
+
+
      <Target/>
      <div>
        <SobreMi/>
 
        <h3 className='Subtitule'>Habilidades</h3>
-       
-         <ul >
-        <li><img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" className='liImg' title='HTML'></img></li>
-        <li><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" className='liImg' title='CSS'></img></li>
-        <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" className='liImg' title='JAVA SCRIP'></img></li>
-        <li><img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" className='liImg' title='REACT'></img></li>
-          
-         </ul>
+        <Habilidades/>
 
          <h3 className='Subtitule'>Proyectos</h3>
          <Proyectos/>
+         <div className='cir'>
 
+</div>
           <h3 className='Subtitule'>Contacto</h3>
           <Contacto/>
 
